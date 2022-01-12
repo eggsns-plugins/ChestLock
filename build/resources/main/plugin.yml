@@ -1,0 +1,8 @@
+name: ChestProtector
+main: com.eggsnham.Main
+version: 0.1
+api-version: 1.18
+commands:
+  lore:
+    usage: /<command> [lore]
+    description: Set the lore of your current item

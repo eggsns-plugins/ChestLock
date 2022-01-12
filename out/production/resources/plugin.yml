@@ -1,0 +1,8 @@
+name: ChestProtector
+main: com.eggsnham.Main
+version: 0.1
+api-version: 1.18
+commands:
+  usercard:
+    usage: /<command> [user]
+    description: Set the user setup on the item you have
