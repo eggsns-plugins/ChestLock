@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ChestLock:jar">
+    <output-path>$USER_HOME$/Desktop/papermc/plugins</output-path>
+    <root id="archive" name="ChestLock.jar">
+      <element id="module-output" name="ChestLock" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
