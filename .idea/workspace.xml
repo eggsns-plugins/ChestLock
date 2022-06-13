@@ -10,26 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55f39573-240d-4be3-8c9d-89fd7b474652" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ChestLock_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/CreateLocked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/CreateLockedTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Exceptions/IncorrectFileType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Lib/FileConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Lib/PluginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Lib/System.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Lib/UUID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/onChestOpen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/onChestPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/onPlayerJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eggsnham/ChestLock/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/david/Desktop/papermc/plugins",
+    "last_opened_file_path": "/home/david/eclipse-workspace/Debug",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"

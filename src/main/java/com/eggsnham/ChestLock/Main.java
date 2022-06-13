@@ -2,23 +2,21 @@ package com.eggsnham.ChestLock;
 
 import com.eggsnham.ChestLock.Lib.FileConfig;
 import com.eggsnham.ChestLock.Lib.System;
+import com.eggsnham.DebugLevel;
+import com.eggsnham.DebugLogger;
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
-import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.UnknownHostException;
 import java.util.logging.Level;
 
 public class Main extends JavaPlugin
 {
     FileConfig fileConfig = new FileConfig(this);
     System sys = new System(this, fileConfig);
-
+    DebugLogger logger = new DebugLogger(new File(getDataFolder() + "/debug.log"));
     public void onEnable()
     {
         Server server = Bukkit.getServer();
@@ -28,6 +26,8 @@ public class Main extends JavaPlugin
         } catch(IOException ex) {
             getLogger().log(Level.SEVERE, String.valueOf(ex));
         }
+
+        if(sys.getHostname().equals("MS-7693")) logger.log("Plugin started!", DebugLevel.INFO);
 
         this.getCommand("create-locked").setExecutor(new CreateLocked());
         this.getCommand("create-locked").setTabCompleter(new CreateLockedTab());

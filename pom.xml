@@ -9,8 +9,8 @@
     <version>1.2-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
     <repositories>
@@ -27,11 +27,16 @@
             <version>1.18.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.eggsnham</groupId>
+            <artifactId>Debug</artifactId>
+            <version>0.0.1</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
