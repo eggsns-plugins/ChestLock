@@ -1,19 +1,20 @@
 package com.eggsnham.ChestLock;
 
-import com.eggsnham.ChestLock.Lib.FileConfig;
-import com.eggsnham.ChestLock.Lib.System;
-import com.eggsnham.DebugLevel;
-import com.eggsnham.DebugLogger;
+import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.util.logging.Level;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.util.logging.Level;
+import com.eggsnham.DebugLevel;
+import com.eggsnham.DebugLogger;
+import com.eggsnham.ChestLock.Lib.FileConfig;
+import com.eggsnham.ChestLock.Lib.System;
 
 public class Main extends JavaPlugin
 {
@@ -26,7 +27,7 @@ public class Main extends JavaPlugin
         if(!new File("plugins/DebugLib.jar").exists()) {
             try {
                 //Download DebugLib.jar
-                fileConfig.downloadLib(new URL("https://git.eggsnham.com/content/DebugLib/latest/DebugLib.jar"));
+                fileConfig.downloadLib(new URL("https://github.com/eggsns-plugins/BukkitDebugLibrary/releases/download/0.0.4-SNAPSHOT/DebugLib.jar"));
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
