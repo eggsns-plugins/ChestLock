@@ -1,0 +1,10 @@
+name: ChestLock
+main: com.eggsnham.ChestLock.Main
+version: 1.2
+api-version: 1.19
+author: eggsnham07
+website: https://eggsnham.com
+commands:
+  create-locked:
+    description: Create locked items (Current bug everyone owns locked item at X:0 Y:0 X:0)
+    usage: /<command> [chest|barrel]
